@@ -59,7 +59,6 @@ client.on('messageCreate', async (message) => {
         if (message.mentions.users) {
             let i = 0
             message.mentions.users.forEach(user => {
-                console.log(user.id);
                 if(i == 0)
                 win = user.id
                 else
